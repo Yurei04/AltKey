@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "Moodify",
+    "version": "1.0",
+    "description": "Switch modes by your moods",
+    "permissions": ["storage", "tabs", "commands"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Moodify"
+    },
+    "commands": {
+      "activate_chill_mode": {
+        "suggested_key": {
+          "default": "Alt+C"
+        },
+        "description": "Activate Chill Mode"
+      },
+      "activate_code_mode": {
+        "suggested_key": {
+          "default": "Alt+X"
+        },
+        "description": "Activate Code Mode"
+      },
+      "activate_work_mode": {
+        "suggested_key": {
+          "default": "Alt+W"
+        },
+        "description": "Activate Work Mode"
+      },
+      "activate_research_mode": {
+        "suggested_key": {
+          "default": "Alt+R"
+        },
+        "description": "Activate Research Mode"
+      }
+    }
+  }
+  

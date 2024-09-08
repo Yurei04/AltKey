@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodify</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Add New Mode</h1>
+    <form id="shortcut-form">
+        <label for="mode-name">Mode Name:</label>
+        <input type="text" id="mode-name" required><br>
+
+        <label for="websites">Websites (comma-separated):</label>
+        <input type="text" id="websites" required><br>
+
+        <label for="shortcut">Keyboard Shortcut (Alt+Letter):</label>
+        <input type="text" id="shortcut" required><br>
+
+        <button type="submit">Add Mode</button>
+    </form>
+
+    <h2>Default Modes</h2>
+    <ul>
+        <li>Chill Mode (Alt+C)</li>
+        <li>Code Mode (Alt+X)</li>
+        <li>Work Mode (Alt+W)</li>
+        <li>Research Mode (Alt+R)</li>
+    </ul>
+
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
