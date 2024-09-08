@@ -1,15 +1,15 @@
 {
     "manifest_version": 3,
-    "name": "Moodify",
+    "name": "AltKey",
     "version": "1.0",
-    "description": "Switch modes by your moods",
+    "description": "Alternative Key for a quicker route",
     "permissions": ["storage", "tabs", "commands"],
     "background": {
       "service_worker": "background.js"
     },
     "action": {
       "default_popup": "popup.html",
-      "default_title": "Moodify"
+      "default_title": "AltKey"
     },
     "commands": {
       "activate_chill_mode": {
