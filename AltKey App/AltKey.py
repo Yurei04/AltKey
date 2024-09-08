@@ -9,7 +9,7 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 appSwitchIT = ctk.CTk()
-appSwitchIT.title("SwitchIT")
+appSwitchIT.title("AltKey")
 appSwitchIT.geometry("400x500")
 appSwitchIT.configure(bg="black")
 
